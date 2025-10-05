@@ -1,0 +1,13 @@
+<!ELEMENT banco (sucursal+)>
+<!ELEMENT sucursal (Juan?,Marcos?,Alba?,Javi?,Lucas?,Pepe?,Alberto?)>
+<!ATTLIST sucursal id NMTOKEN #REQUIRED>
+<!ELEMENT Juan (#PCDATA)>
+<!ELEMENT Marcos (#PCDATA)>
+<!ELEMENT Alba (#PCDATA)>
+<!ELEMENT Javi (#PCDATA|javi|Elena|Julia)*>
+<!ELEMENT javi EMPTY>
+<!ELEMENT Elena (#PCDATA)>
+<!ELEMENT Julia (#PCDATA)>
+<!ELEMENT Lucas (#PCDATA)>
+<!ELEMENT Pepe (#PCDATA)>
+<!ELEMENT Alberto (#PCDATA)>

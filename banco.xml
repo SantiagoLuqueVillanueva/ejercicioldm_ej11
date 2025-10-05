@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE banco SYSTEM "file.dtd">
+
+<banco>
+    <sucursal id="1">
+        <cuenta:Juan>1234</cuenta:Juan>
+        <cuenta:Marcos>2345</cuenta:Marcos>
+        <cuenta:Alba>3456</cuenta:Alba>
+    </sucursal>
+
+    <sucursal id="2">
+        <cuenta:Javi>6789</cuenta:Javi>
+        <cuenta:Elena>7891</cuenta:Elena>
+        <cuenta:Julia>8912</cuenta:Julia>
+    </sucursal>
+
+    <sucursal id="3">
+        <cuenta:Lucas>9123</cuenta:Lucas>
+        <cuenta:Pepe>1345</cuenta:Pepe>
+        <cuenta:Alberto>2456</cuenta:Alberto>
+    </sucursal>
+</banco>

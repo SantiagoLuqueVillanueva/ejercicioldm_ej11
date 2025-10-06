@@ -1,22 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE banco SYSTEM "file.dtd">
 
 <banco>
     <sucursal id="1">
-        <cuenta:Juan>1234</cuenta:Juan>
-        <cuenta:Marcos>2345</cuenta:Marcos>
-        <cuenta:Alba>3456</cuenta:Alba>
+        <cuenta iban="C001">
+            <cliente>
+                <id>77661122D</id>
+                <nombre>Santiago</nombre>
+                <teléfono>111-222-333</teléfono>
+            </cliente>
+            <cliente>
+                <id>77661122F</id>
+                <nombre>Alba</nombre>
+                <teléfono>222-333-444</teléfono>
+            </cliente>
+        </cuenta>
+        <cuenta iban="C003">
+            <cliente>
+                <id>77661122H</id>
+                <nombre>Marcos</nombre>
+                <teléfono>333-444-555</teléfono>
+            </cliente>
+            <cliente>
+                <id>77661122G</id>
+                <nombre>Lucas</nombre>
+                <teléfono>444-555-666</teléfono>
+            </cliente>
+        </cuenta>
     </sucursal>
-
     <sucursal id="2">
-        <cuenta:Javi>6789</cuenta:Javi>
-        <cuenta:Elena>7891</cuenta:Elena>
-        <cuenta:Julia>8912</cuenta:Julia>
-    </sucursal>
-
-    <sucursal id="3">
-        <cuenta:Lucas>9123</cuenta:Lucas>
-        <cuenta:Pepe>1345</cuenta:Pepe>
-        <cuenta:Alberto>2456</cuenta:Alberto>
+        <cuenta iban="C002">
+            <cliente>
+                <id>77661122A</id>
+                <nombre>Sergio</nombre>
+                <teléfono>777-888-999</teléfono>
+            </cliente>
+        </cuenta>
     </sucursal>
 </banco>
